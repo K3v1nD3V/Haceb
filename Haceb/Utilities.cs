@@ -22,7 +22,7 @@ namespace Haceb
                 Thread.Sleep(500); 
             }
         }
-        public static void ShowMessage(string message, int pauseInSeconds = 2)
+        public static void ShowMessage(string message, int pauseInSeconds = 1)
         {
             Console.Clear();
             Console.WriteLine(message);

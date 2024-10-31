@@ -190,7 +190,7 @@ namespace Haceb
             try
             {
                 SoundPlayer player = new SoundPlayer(dryAudio);
-                Thread blinkThread = new Thread(() => Utilities.BlinkText("Llenando...", 3));
+                Thread blinkThread = new Thread(() => Utilities.BlinkText("Secando...", 3));
                 blinkThread.Start();
 
                 player.PlaySync();
